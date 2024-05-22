@@ -1,0 +1,12 @@
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+    border: 1px solid;
+}
+
+th {
+    text-wrap: nowrap;
+}
