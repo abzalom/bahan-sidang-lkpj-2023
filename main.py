@@ -1,7 +1,11 @@
 import pandas as pd
 import streamlit as st
-import locale
 import plotly.express as px
+import locale
+import os
+
+os.environ['LC_ALL'] = 'id_ID.UTF-8'
+os.environ['LANG'] = 'id_ID.UTF-8'
 locale.setlocale(locale.LC_ALL, 'id_ID.UTF-8')
 
 # Membaca file Excel
