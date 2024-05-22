@@ -3,3 +3,8 @@ base="dark"
 
 [server]
 runOnSave = true
+enableCORS = false
+headless = true
+
+[client]
+locale = "id_ID.UTF-8"
